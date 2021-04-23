@@ -1,0 +1,7 @@
+from home import home
+from name import name
+
+routes = [
+  ('/', '/', home),
+  ('/name', '/name', name)
+]

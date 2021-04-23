@@ -1,0 +1,11 @@
+click==7.1.2
+coconut==1.5.0
+cPyparsing==2.4.5.0.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+prompt-toolkit==3.0.18
+Pygments==2.8.1
+wcwidth==0.2.5
+Werkzeug==1.0.1
