@@ -1,16 +1,11 @@
 from routes import routes
 
-print_next = item -> item \
-  |> print \
-  |> (->item)
-
 add_route = (args, app) -> args \
   |?*> app.add_url_rule \
   |> (-> args)
 
 register = (iterator, app) -> iterator \
   |> next$(?, None) \
-  |> print_next \
   |> add_route$(?, app) \
   |?> (-> register(iterator, app))
 
